@@ -1,5 +1,5 @@
 import React from 'react';
-import {Carousel, IconSettings} from "@salesforce/design-system-react";
+import {Carousel, IconSettings ,Button} from "@salesforce/design-system-react";
 
 
 import log from '@salesforce/design-system-react/utilities/log';
@@ -98,6 +98,7 @@ class Example extends React.Component {
                         }}
                     />
                 </div>
+                <Button label="Click Me" variant="destructive"/>
             </IconSettings>
         );
     }
